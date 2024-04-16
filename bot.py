@@ -19,5 +19,3 @@ async def on_ready():
     print(f'{client.user} connected to server MyPi')
 
 client.run(TOKEN)
-
-# teehee
