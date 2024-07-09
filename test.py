@@ -22,6 +22,8 @@ GPIO.setup(fan, GPIO.OUT)
 
 threshold = 40.0
 
+# updating this so can commit
+
 GPIO.output(fan, GPIO.LOW)
 
 while (currentTemp > threshold):
